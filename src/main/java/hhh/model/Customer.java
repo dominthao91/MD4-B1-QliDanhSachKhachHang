@@ -1,4 +1,4 @@
-package cg.wbd.grandemonstration.model;
+package hhh.model;
 
 public class Customer implements Cloneable {
     private Long id;

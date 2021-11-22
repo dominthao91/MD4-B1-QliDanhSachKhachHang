@@ -1,10 +1,10 @@
-package cg.wbd.grandemonstration.service;
+package hhh.service;
 
-import cg.wbd.grandemonstration.model.Customer;
+import hhh.model.Customer;
 
 import java.util.List;
 
-public interface CustomerService {
+public interface ICustomerService {
     List<Customer> findAll();
 
     Customer findOne(Long id);

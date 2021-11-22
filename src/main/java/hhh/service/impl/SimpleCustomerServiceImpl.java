@@ -1,7 +1,7 @@
-package cg.wbd.grandemonstration.service.impl;
+package hhh.service.impl;
 
-import cg.wbd.grandemonstration.model.Customer;
-import cg.wbd.grandemonstration.service.CustomerService;
+import hhh.model.Customer;
+import hhh.service.ICustomerService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 import static java.util.Arrays.asList;
 
-public class SimpleCustomerServiceImpl implements CustomerService {
+public class SimpleCustomerServiceImpl implements ICustomerService {
     private static List<Customer> customers;
     private static long autoIncreaseId = 0;
 
